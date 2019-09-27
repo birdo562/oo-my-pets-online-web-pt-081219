@@ -44,6 +44,6 @@ end
     pets = self.dogs + self.cats
     pets.each do |pets|
       pets.mood ="nervous"
-      
+    end
 end
 
