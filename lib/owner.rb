@@ -23,5 +23,5 @@ end
     @@all.clear
   end
   def dogs
-    Dogs.all
+    Dogs.all.select {|dog|
 end
