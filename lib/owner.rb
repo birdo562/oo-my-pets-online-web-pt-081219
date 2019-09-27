@@ -23,5 +23,9 @@ end
     @@all.clear
   end
   def dogs
-    Dogs.all.select {|dog|
+    Dog.all.select {|dog| dog.owner}
+  end
+  def cats
+    Cat.all.select {|cat| cat.owner}
 end
+
