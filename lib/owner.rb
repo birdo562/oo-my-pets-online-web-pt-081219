@@ -8,7 +8,7 @@ def initialize(name)
   @@all << self
 end
 def say_species
-"I am a #{@species}!"
+"I am a #{@species}."
 end
   def self.all
     @@all
