@@ -43,6 +43,6 @@ end
     def sell_pets
     pets = self.dogs + self.cats
     
-    
+    self.pets.each {|pets
 end
 
