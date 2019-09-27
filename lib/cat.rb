@@ -1,3 +1,7 @@
 class Cat
-  attr_accessor :name, :owner
+  @@all = []
+  attr_accessor :owner, :mood
+  attr_reader :name
+  def initialize 
+    
 end
