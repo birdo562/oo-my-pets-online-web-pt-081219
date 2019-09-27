@@ -28,7 +28,8 @@ end
   def cats
     Cat.all.select {|cat| cat.owner == self}
   end
-  def buy_cat
+  def buy_cat(name)
+    
     
 end
 
