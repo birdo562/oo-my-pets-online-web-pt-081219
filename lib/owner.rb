@@ -10,5 +10,8 @@ end
 def say_species
   @species
 end
+  def self.all
+    @@all
+  end
   
 end
