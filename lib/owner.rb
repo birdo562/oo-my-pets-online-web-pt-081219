@@ -47,7 +47,8 @@ end
       pets.owner = nil
       
     end
-    def 
+    def list_pets
+      
   end
 end
 
